@@ -1,0 +1,111 @@
+:root {
+    --mainColor: #1E202B;
+    --secColor: #262936;
+    --sec2color: #0D6EFD;
+
+}
+
+
+/* START NAV BAR */
+nav {
+    background-color: var(--mainColor);
+}
+
+.mainLogo {
+    vertical-align: super;
+    font-size: 3rem;
+}
+
+h1 {
+    line-height: 70%;
+}
+
+a.nav-link {
+    color: white;
+    border: solid 2px transparent;
+    transition: all 0.3s;
+}
+
+.navbar-nav .nav-link.active {
+    border: solid 2px var(--sec2color);
+    color: var(--sec2color);
+}
+
+a.nav-link:hover {
+    border: solid 2px var(--sec2color);
+    color: var(--sec2color)
+}
+
+.navbar-toggler {
+    border: 2px var(--secColor) solid;
+}
+
+/* END NAV BAR */
+/* START HOME SECTION */
+#home {
+    background-image: url(/images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: local;
+    background-color: var(--mainColor);
+    /* height: 85vh; */
+}
+
+#search {
+    background-color: var(--mainColor);
+}
+
+#search::placeholder {
+    color: #555555;
+}
+
+#find {
+    background-color: var(--sec2color);
+}
+
+.head {
+    background-color: #2D303D;
+}
+
+.body {
+    background-color: #323544
+}
+
+.midHead {
+    background-color: #222530;
+}
+
+.midBody {
+    background-color: #262936;
+}
+
+.tempSpan {
+    font-size: 5.5rem;
+}
+
+footer{
+    background-color: var(--secColor)
+}
+#subscrubeInput{background-color: var(--mainColor)}
+.brandSocial{ width: 50px;
+height: 50px;
+background-color: var(--mainColor)}
+.brandSocial:hover {background-color: var(--sec2color);
+    color: var(--mainColor);
+}
+
+
+/* END HOME SECTION */
+/* START ABOUT SECTION */
+/* END ABOUT SECTION */
+/* START SERVICES SECTION */
+/* END SERVICES SECTION */
+/* START CLIENT SECTION */
+/* END CLIENT SECTION */
+/* START PORTFOLIO SECTION */
+/* END PORTFOLIO SECTION */
+/* START BLOG SECTION */
+/* END CONTACT SECTION */
+/* START FOOTER */
+/* END FOOTER */
